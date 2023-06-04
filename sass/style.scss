@@ -1,6 +1,7 @@
 // Abstract
 @import "abstracts/variables";
 @import "abstracts/mixins";
+@import "abstracts/media";
 // Base
 @import "base/noramlize";
 @import "base/fonts";
@@ -13,13 +14,5 @@
 @import "layout/header";
 @import "layout/main";
 
-
 // Components
 @import "components/button";
-
-
-
-
-
-
-

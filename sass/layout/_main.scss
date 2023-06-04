@@ -1,0 +1,122 @@
+main {
+  flex-grow: 1;
+}
+
+.main {
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.signup-part {
+  background-color: $background-color;
+  padding: 5.2rem 10rem 5.2rem 6.4rem;
+  border-radius: 1rem;
+  background-image: url(../images/svg/background-image-first.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right -30% top -80%;
+}
+
+.signupform__inp {
+  width: 76.9rem;
+  height: 6.4rem;
+  padding: 1.4rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+.gather-all {
+  position: absolute;
+  margin-top: -8rem;
+}
+
+.shorten {
+  padding: 1.9rem;
+  border-radius: 1rem;
+  background-color: $primary-blue;
+  transition: 0.4s;
+  &:hover {
+    background-color: $primary-blue-light;
+  }
+}
+
+.shortened {
+  padding: 1.6rem 2.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $primary-white;
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+
+.copy__link {
+  gap: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.advansed-part {
+  padding-top: 60rem;
+  text-align: center;
+}
+
+.statistic-type {
+  width: 35rem;
+  height: 26.7rem;
+  background-color: $primary-white;
+  border-radius: 0.8rem;
+  margin-left: 3.3rem;
+  text-align: left;
+  position: relative;
+}
+
+.statistic-info {
+  display: flex;
+  padding-bottom: 12rem;
+}
+
+.statistic__text {
+  padding-bottom: 10rem;
+}
+
+.second {
+  margin-top: 4.4rem;
+}
+
+.third {
+  margin-top: 8.8rem;
+}
+
+.iconca {
+  width: 8.2rem;
+  height: 8.5rem;
+  padding: 2rem 2rem 2rem 2rem;
+  background-color: $background-color;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  margin-top: -11.5rem;
+}
+
+.statistic-type {
+  padding: 7.7rem 3.2rem 4.1rem 3.2rem;
+}
+
+.main-section__container {
+  background-color: $background-color;
+  height: 25rem;
+  text-align: center;
+  padding: 4rem;
+}
+
+.main-section__title {
+  padding-bottom: 2rem;
+}
+
+.main-section__container {
+  background-image: url(../images/svg/background-image-third.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top -35rem right 0rem;
+}

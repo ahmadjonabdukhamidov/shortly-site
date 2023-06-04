@@ -1,0 +1,34 @@
+.footer {
+  background-color: $footer-background-color;
+  height: 31rem;
+}
+
+.footer__container {
+  padding: 7.1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footernav__list__link svg:hover path {
+  fill: $primary-blue;
+}
+
+.footenav__list {
+  display: flex;
+}
+
+.footernav:not(:last-child) {
+  margin-right: 10rem;
+}
+
+.collect-all {
+  display: flex;
+}
+
+.footenav__list {
+  gap: 2.4rem;
+}
+
+.footernav__list__item__link:hover {
+  color: $primary-blue;
+}

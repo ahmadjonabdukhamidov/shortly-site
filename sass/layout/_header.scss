@@ -1,6 +1,45 @@
-
 .header__container {
-    display: flex;
-    align-items: center;
-    
+  padding: 4.8rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-info {
+  display: flex;
+  align-items: center;
+  gap: 4.5rem;
+}
+
+.headernav__list {
+  display: flex;
+  gap: 2.9rem;
+}
+
+.signup-form {
+  align-items: center;
+  display: flex;
+  gap: 3rem;
+}
+
+.hero__container {
+  display: flex;
+  padding-bottom: 20rem;
+}
+
+.login {
+  color: $text-color;
+  transition: 0.4s;
+
+  &:hover {
+    color: $secondary-text-colot;
+  }
+}
+
+.hero-info {
+  padding: 3rem 0;
+}
+
+.hero-container__img {
+  margin-right: -10rem;
 }
